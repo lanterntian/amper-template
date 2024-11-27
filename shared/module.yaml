@@ -1,0 +1,15 @@
+product:
+  type: lib
+  platforms: [android, iosArm64]
+dependencies:
+  - $compose.foundation: exported
+  - $compose.material3: exported
+
+dependencies@android:
+  - androidx.activity:activity-compose:1.9.3: exported
+settings:
+  publishing:
+    group: lanterntian.github.io.example
+    name: shared
+  compose:
+    enabled: true

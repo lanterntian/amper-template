@@ -1,0 +1,11 @@
+product: android/app
+
+dependencies:
+  - ../shared
+
+settings:
+  compose: enabled
+  android:
+    namespace: lanterntian.github.io.example
+    versionName: 0.0.1
+
